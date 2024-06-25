@@ -60,7 +60,9 @@
     left: -30px;
 }
 
-/* fixed: El elemento pierde sus dimensiones y posición original en el flujo del documento. Si se mueve toma como referencia el documento HTML y queda fijo en la posición, cuando el scroll se mueva, el elemento no lo hará, queda FIJO */
+
+/* ------------------------------------------------------------------ */
+/* Posicionamiento Fixed */
 .fixed {
     background-color: lightgreen;
     position: fixed;
@@ -69,5 +71,25 @@
     /* right: 20px;
     bottom: 10px; */
     top: 30px;
-    left: 400px;
-  }
+    left: 450px;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* Posicionamiento Sticky */
+.sticky {
+    background-color: lightskyblue;
+    position: sticky;
+    top: 50px;
+}
+
+.sticky-parent {
+    border: thin dashed black;
+    height: 600px;
+}
+
+.sticky-child {
+    background-color: lightslategray;
+    position: sticky;
+    top: 75px;
+}
