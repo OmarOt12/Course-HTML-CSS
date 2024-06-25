@@ -46,4 +46,38 @@ html{
 
 
 
+/* Selectores de atributos */
+.selectores-atributos a[href] {
+    color: coral;
+  }
+  
+.selectores-atributos a[target="_blank"] {
+font-weight: bold;
+}
 
+/* aplica el estilo mientras contenga el texto */
+.selectores-atributos a[href*="jonmircha"] {
+font-size: 20px;
+}
+
+/* aplica el estilo si contiene el texto al inicio */
+.selectores-atributos a[href^="http"]
+{
+text-decoration: none;
+}
+
+/*aplica el estilo si contiene el texto al final */
+.selectores-atributos a[href$=".com"] {
+background-color: wheat;
+}
+
+/*aplica el estilo si contiene el texto en una lista de clases separada por espacios */
+.selectores-atributos a[class~="cursos"] {
+background-color: rgb(142, 142, 204);
+}
+
+/*aplica el estilo si contiene el texto en una lista separada por espacios y que despues del texto venga un guión medio - */
+.selectores-atributos a[class|="menu"] {
+font-style: italic;
+color: white;
+}
