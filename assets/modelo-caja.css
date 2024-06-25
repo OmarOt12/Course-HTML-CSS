@@ -74,9 +74,9 @@ h1 {
 /* Overflow */
 .caja-hidden {
     visibility: hidden;
-  }
-  
-  .overflow {
+}
+
+.overflow {
     background-color: darkturquoise;
     width: 200px;
     height: 100px;
@@ -86,40 +86,40 @@ h1 {
     overflow: auto;
     /* overflow-y: scroll; */
     /* overflow-x: scroll; */
-  }
+}
 
 
 /* ------------------------------------------------------------------ */
 /* Tamaño de Caja */
 .box-sizing-content,
 .box-sizing-border {
-  background-color: deepskyblue;
-  box-sizing: content-box;
-  width: 500px;
-  height: 250px;
-  padding: 10px;
-  border: thick solid black;
-  /* w 500 + 10 + 10 + 5 + 5 = 530 */
-  /* h 250 + 10 + 10 + 5 +5  = 280 */
+    background-color: deepskyblue;
+    box-sizing: content-box;
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+    border: thick solid black;
+    /* w 500 + 10 + 10 + 5 + 5 = 530 */
+    /* h 250 + 10 + 10 + 5 +5  = 280 */
 }
 
 .box-sizing-border {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .container-col-3 {
-  background-color: burlywood;
-  width: 600px;
-  height: 300px;
-  margin-top: 20px;
+    background-color: burlywood;
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
 }
 
-.container-col-3 > * {
-  box-sizing: border-box;
-  width: 200px;
-  border: thin solid red;
-  padding: 10px;
-  float: left;
+.container-col-3>* {
+    box-sizing: border-box;
+    width: 200px;
+    border: thin solid red;
+    padding: 10px;
+    float: left;
 }
 
 
@@ -127,29 +127,47 @@ h1 {
 /* Float Y Clear */
 html {
     box-sizing: border-box;
-  }
-  
-  *,
-  *:before,
-  *:after {
+}
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-  }
-  
-  /* Floats */
-  .container-floats {
+}
+
+/* Floats */
+.container-floats {
     background-color: cornflowerblue;
-  }
-  
-  .float-left {
+}
+
+.float-left {
     float: left;
-  }
-  
-  .float-right {
+}
+
+.float-right {
     float: right;
-  }
-  
-  .clearfix {
+}
+
+.clearfix {
     clear: both;
-  }
-  
-  
+}
+
+
+/* ------------------------------------------------------------------ */
+/* Colapso de Márgenes Verticales */
+.margin-collapse {
+    background-color: skyblue;
+}
+
+.margin-collapse section {
+    border: thin solid black;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.margin-collapse span {
+    border: thin solid black;
+    display: inline-block;
+    margin-right: 16px;
+    margin-left: 16px;
+}
