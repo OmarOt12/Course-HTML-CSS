@@ -2,6 +2,8 @@ html{
     scroll-behavior: smooth;
 }
 
+
+/* ------------------------------------------------------------------ */
 /* Selectores Basicos */
 
 .text-30 {
@@ -25,6 +27,8 @@ html{
     background-color: red;
 }
 
+
+/* ------------------------------------------------------------------ */
 /* Selectores Aanzados */
 
 .hijos-directos > li {
@@ -45,11 +49,12 @@ html{
 }
 
 
-
+/* ------------------------------------------------------------------ */
 /* Selectores de atributos */
+
 .selectores-atributos a[href] {
     color: coral;
-  }
+}
   
 .selectores-atributos a[target="_blank"] {
 font-weight: bold;
@@ -80,4 +85,16 @@ background-color: rgb(142, 142, 204);
 .selectores-atributos a[class|="menu"] {
 font-style: italic;
 color: white;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* Selector Universal */
+
+* {
+    font-family: sans-serif;
+}
+
+.selector-universal * {
+    font-size: 24px;
 }
