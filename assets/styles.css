@@ -34,3 +34,16 @@ html{
 .hijos-desendientes b{
     background-color: aquamarine;
 }
+
+/* Se le aplican a los que esten por debajo */
+.hermanos-general ~ li {
+    background-color: thistle;
+}
+  
+.hermanos-adyacentes + li {
+    background-color: thistle;
+}
+
+
+
+
