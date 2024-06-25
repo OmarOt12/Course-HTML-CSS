@@ -1,0 +1,6 @@
+.static {
+    background-color: green;
+    position: static;
+    top: 10px;
+    left: 10px;
+  }
