@@ -1,3 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* Selectores Basicos */
+
 .text-30 {
     font-size: 20px;
 }
@@ -17,4 +23,14 @@
 }
 .bg-red{
     background-color: red;
+}
+
+/* Selectores Aanzados */
+
+.hijos-directos > li {
+    background-color: aquamarine;
+}
+
+.hijos-desendientes b{
+    background-color: aquamarine;
 }
