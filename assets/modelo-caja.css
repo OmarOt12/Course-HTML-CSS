@@ -10,6 +10,7 @@ h1 {
 }
 
 
+/* ------------------------------------------------------------------ */
 /* Padding & Margin */
 .caja-uno,
 .caja-dos {
@@ -25,6 +26,7 @@ h1 {
 }
 
 
+/* ------------------------------------------------------------------ */
 /* Cajas de Linea y de Bloque */
 .caja-linea,
 .caja-bloque {
@@ -47,7 +49,7 @@ h1 {
 }
 
 
-
+/* ------------------------------------------------------------------ */
 /* Display */
 .caja-none,
 .caja-linea-bloque,
@@ -66,3 +68,22 @@ h1 {
 .caja-none {
     display: none;
 }
+
+
+/* ------------------------------------------------------------------ */
+/* Overflow */
+.caja-hidden {
+    visibility: hidden;
+  }
+  
+  .overflow {
+    background-color: darkturquoise;
+    width: 200px;
+    height: 100px;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+    /* overflow-y: scroll; */
+    /* overflow-x: scroll; */
+  }
