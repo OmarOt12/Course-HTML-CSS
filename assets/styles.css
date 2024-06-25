@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -9,21 +9,24 @@ html{
 .text-30 {
     font-size: 20px;
 }
-.text-30{
+
+.text-30 {
     font-size: 30px;
 }
 
-.text-while{
+.text-while {
     color: white;
 }
-.text-yellow{
+
+.text-yellow {
     color: yellow;
 }
 
-.bg-blue{
+.bg-blue {
     background-color: blue;
 }
-.bg-red{
+
+.bg-red {
     background-color: red;
 }
 
@@ -31,20 +34,20 @@ html{
 /* ------------------------------------------------------------------ */
 /* Selectores Aanzados */
 
-.hijos-directos > li {
+.hijos-directos>li {
     background-color: aquamarine;
 }
 
-.hijos-desendientes b{
+.hijos-desendientes b {
     background-color: aquamarine;
 }
 
 /* Se le aplican a los que esten por debajo */
-.hermanos-general ~ li {
+.hermanos-general~li {
     background-color: thistle;
 }
-  
-.hermanos-adyacentes + li {
+
+.hermanos-adyacentes+li {
     background-color: thistle;
 }
 
@@ -55,36 +58,35 @@ html{
 .selectores-atributos a[href] {
     color: coral;
 }
-  
+
 .selectores-atributos a[target="_blank"] {
-font-weight: bold;
+    font-weight: bold;
 }
 
 /* aplica el estilo mientras contenga el texto */
 .selectores-atributos a[href*="jonmircha"] {
-font-size: 20px;
+    font-size: 20px;
 }
 
 /* aplica el estilo si contiene el texto al inicio */
-.selectores-atributos a[href^="http"]
-{
-text-decoration: none;
+.selectores-atributos a[href^="http"] {
+    text-decoration: none;
 }
 
 /*aplica el estilo si contiene el texto al final */
 .selectores-atributos a[href$=".com"] {
-background-color: wheat;
+    background-color: wheat;
 }
 
 /*aplica el estilo si contiene el texto en una lista de clases separada por espacios */
 .selectores-atributos a[class~="cursos"] {
-background-color: rgb(142, 142, 204);
+    background-color: rgb(142, 142, 204);
 }
 
 /*aplica el estilo si contiene el texto en una lista separada por espacios y que despues del texto venga un guión medio - */
 .selectores-atributos a[class|="menu"] {
-font-style: italic;
-color: white;
+    font-style: italic;
+    color: white;
 }
 
 
@@ -105,80 +107,120 @@ color: white;
 
 .form-pseudoclases *:required {
     border-color: yellow;
-  }
-  
-  .form-pseudoclases *:valid {
-    border-color: green;
-  }
-  
-  .form-pseudoclases *:invalid {
-    border-color: red;
-  }
-  
-  .form-pseudoclases *:focus {
-    background-color: aquamarine;
-  }
-  
-  .form-pseudoclases *:disabled {
-    background-color: pink;
-  }
+}
 
-  .menu-pseudoclases a:visited {
-    color: olive;
-  }
-  
-  .menu-pseudoclases a:hover {
-    color: coral;
-  }
-  
-  .p-pseudoclases:hover {
-    font-size: 30px;
-  }
-  
-  #temario-css:target {
-    background-color: lightgreen;
-  }
-  
-  .lista-pseudoclases li:first-child {
-    color: green;
-  }
-  
-  .lista-pseudoclases li:last-child {
-    color: violet;
-  }
-  
-  .lista-pseudoclases li:nth-child(3) {
-    color: navy;
-  }
-  
-  .lista-pseudoclases li:nth-child(4n) {
-    font-size: 20px;
-  }
-  
-  .lista-pseudoclases li:nth-child(3n + 1) {
-    font-weight: bold;
-  }
-  
-  .lista-pseudoclases li:nth-child(even) {
-    background-color: yellow;
-  }
-  
-  .lista-pseudoclases li:nth-child(odd) {
-    background-color: orange;
-  }
-  
-  .articulo-pseudoclases p:first-of-type {
+.form-pseudoclases *:valid {
+    border-color: green;
+}
+
+.form-pseudoclases *:invalid {
+    border-color: red;
+}
+
+.form-pseudoclases *:focus {
+    background-color: aquamarine;
+}
+
+.form-pseudoclases *:disabled {
     background-color: pink;
-  }
-  
-  .articulo-pseudoclases p:last-of-type {
+}
+
+.menu-pseudoclases a:visited {
+    color: olive;
+}
+
+.menu-pseudoclases a:hover {
+    color: coral;
+}
+
+.p-pseudoclases:hover {
+    font-size: 30px;
+}
+
+#temario-css:target {
+    background-color: lightgreen;
+}
+
+.lista-pseudoclases li:first-child {
+    color: green;
+}
+
+.lista-pseudoclases li:last-child {
+    color: violet;
+}
+
+.lista-pseudoclases li:nth-child(3) {
+    color: navy;
+}
+
+.lista-pseudoclases li:nth-child(4n) {
+    font-size: 20px;
+}
+
+.lista-pseudoclases li:nth-child(3n + 1) {
+    font-weight: bold;
+}
+
+.lista-pseudoclases li:nth-child(even) {
+    background-color: yellow;
+}
+
+.lista-pseudoclases li:nth-child(odd) {
+    background-color: orange;
+}
+
+.articulo-pseudoclases p:first-of-type {
+    background-color: pink;
+}
+
+.articulo-pseudoclases p:last-of-type {
     background-color: violet;
-  }
-  
-  .articulo-pseudoclases p:nth-of-type(3) {
+}
+
+.articulo-pseudoclases p:nth-of-type(3) {
     background-color: fuchsia;
-  }
-  
-  .articulo-pseudoclases *:not(p) {
+}
+
+.articulo-pseudoclases *:not(p) {
     background-color: beige;
-  }
+}
+
+
+/* ------------------------------------------------------------------ */
+/* Pseudoelementos */
+
+.saga-geminis::before {
+    content: "🤼‍♂️";
+}
+
+.saga-geminis::after {
+    content: "♊";
+}
+
+.saga-precio::before {
+    content: "$";
+    font-weight: bold;
+}
+
+.saga-precio::after {
+    content: "USD";
+    font-weight: bold;
+}
+
+.p-pseudoelementos::first-letter {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.p-pseudoelementos::first-line {
+    color: coral;
+}
+
+.p-pseudoelementos::selection {
+    color: greenyellow;
+    background-color: black;
+}
+
+.input-pseudoelementos::placeholder {
+    color: green;
+}
