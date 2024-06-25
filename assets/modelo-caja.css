@@ -1,3 +1,5 @@
+
+/* Width, Heigth y Border */
 h1 {
     width: 400px;
     height: 200px;
@@ -8,7 +10,7 @@ h1 {
   }
 
 
-
+/* Padding & Margin */
   .caja-uno,
 .caja-dos {
   border: medium solid black;  
@@ -20,4 +22,26 @@ h1 {
   margin: 50px 30px 0;
   padding: 0 40px 20px 50px;
   margin: 100px 50px 30px 0;
+}
+
+
+/* Cajas de Linea y de Bloque */
+.caja-linea,
+.caja-bloque {
+  background-color: darkcyan;
+  color: white;
+  width: 500px;
+  height: 250px;
+  border: medium solid black;
+  padding: 16px;
+}
+
+.caja-bloque {
+  margin: 32px;
+  display: block;
+}
+
+.caja-linea {
+  margin: 48px;
+  display: inline;
 }
