@@ -1,47 +1,68 @@
-
 /* Width, Heigth y Border */
 h1 {
     width: 400px;
     height: 200px;
     border-color: green;
     border-top-color: red;
-    border-width: thick; /* thin: 1px , medium: 3px, thick: 5px */
-    border-style: solid;    
-  }
+    border-width: thick;
+    /* thin: 1px , medium: 3px, thick: 5px */
+    border-style: solid;
+}
 
 
 /* Padding & Margin */
-  .caja-uno,
+.caja-uno,
 .caja-dos {
-  border: medium solid black;  
-  padding: 20px;
-  margin: 20px;
-  padding: 20px 40px;
-  margin: 40px 20px;
-  padding: 0 40px 20px;
-  margin: 50px 30px 0;
-  padding: 0 40px 20px 50px;
-  margin: 100px 50px 30px 0;
+    border: medium solid black;
+    padding: 20px;
+    margin: 20px;
+    padding: 20px 40px;
+    margin: 40px 20px;
+    padding: 0 40px 20px;
+    margin: 50px 30px 0;
+    padding: 0 40px 20px 50px;
+    margin: 100px 50px 30px 0;
 }
 
 
 /* Cajas de Linea y de Bloque */
 .caja-linea,
 .caja-bloque {
-  background-color: darkcyan;
-  color: white;
-  width: 500px;
-  height: 250px;
-  border: medium solid black;
-  padding: 16px;
+    background-color: darkcyan;
+    color: white;
+    width: 500px;
+    height: 250px;
+    border: medium solid black;
+    padding: 16px;
 }
 
 .caja-bloque {
-  margin: 32px;
-  display: block;
+    margin: 32px;
+    display: block;
 }
 
 .caja-linea {
-  margin: 48px;
-  display: inline;
+    margin: 48px;
+    display: inline;
+}
+
+
+
+/* Display */
+.caja-none,
+.caja-linea-bloque,
+.caja-hidden {
+    background-color: darkolivegreen;
+    color: white;
+    width: 600px;
+    height: 300px;
+    border: medium solid black;
+}
+
+.caja-linea-bloque {
+    display: inline-block;
+}
+
+.caja-none {
+    display: none;
 }
