@@ -1,6 +1,10 @@
 html {
     box-sizing: border-box;
-}
+    font-size: 20px;
+    font-size: 32px;
+    font-size: 16px;
+    background-color: black;
+  }
 
 *,
 *::after,
@@ -34,3 +38,20 @@ html {
     padding: 1em;
     font-size: 2em;
 }
+
+
+/* rem */
+.rems {
+    background-color: cadetblue;
+    font-size: 24px;
+    padding: 1rem 0.5rem;
+    border: 5px solid rebeccapurple;
+  }
+  
+  .rem-child {
+    background-color: salmon;
+    border: thick solid beige;
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 2rem;
+  }
