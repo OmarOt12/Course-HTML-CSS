@@ -37,3 +37,17 @@
 }
 
 
+/* Colores HSL */
+.color-hsl {
+    background-color: hsl(0, 100%, 50%);
+    background-color: hsl(120, 100%, 50%);
+    background-color: hsl(240, 100%, 50%);
+    background-color: hsl(30, 100%, 50%);
+    background-color: hsla(30, 100%, 50%, 0.5);
+    background-color: hsla(30, 100%, 50%, 0.25);
+    background-color: hsla(30, 100%, 50%, 0);
+    background-color: hsla(30, 100%, 50%, 0.75);
+    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+    border: thick solid hsl(210, 75%, 65%);
+  }
