@@ -4,3 +4,21 @@
     color: rebeccapurple;
     border: thick solid greenyellow;
 }
+
+
+
+/* Colores Hexadecimales */
+.color-hex {
+    background-color: #ff6600;
+    background-color: #f60;
+    background-color: #ff6605;
+    background-color: #0003;
+    color: #12ac78;
+    border: thick solid #ffffff;
+    border: thick solid #fff;
+    border: thick solid #ff0000;
+    border: thick solid #f00;
+    border: thick solid #00f;
+    border: thick solid #000000;
+    border: thick solid #000;
+  }
