@@ -6,20 +6,18 @@
 }
 
 
-
 /* Colores Hexadecimales */
 .color-hex {
     background-color: #ff6600;
     background-color: #f60;
     background-color: #ff6605;
-    background-color: #0003;
+    background-color: #0006;
     color: #12ac78;
     border: thick solid #ffffff;
     border: thick solid #fff;
     border: thick solid #ff0000;
     border: thick solid #f00;
     border: thick solid #00f;
-    border: thick solid #000000;
     border: thick solid #000;
 }
 
@@ -50,4 +48,14 @@
     color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 0%);
     border: thick solid hsl(210, 75%, 65%);
+  }
+
+
+/* Valores Transparent y CurrentColor */
+  .color-transparent-current {
+    background-color: darkmagenta;
+    background-color: currentColor;
+    background-color: transparent;
+    color: olive;
+    border: thick solid currentColor;
   }
