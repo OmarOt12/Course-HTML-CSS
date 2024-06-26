@@ -48,14 +48,42 @@
     color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 0%);
     border: thick solid hsl(210, 75%, 65%);
-  }
+}
 
 
 /* Valores Transparent y CurrentColor */
-  .color-transparent-current {
+.color-transparent-current {
     background-color: darkmagenta;
     background-color: currentColor;
     background-color: transparent;
     color: olive;
     border: thick solid currentColor;
+}
+
+
+/* Opacity */
+.opacity {
+    background-color: orchid;
+    color: navy;
+    border: thick solid black;
+    opacity: 0.5;
+    opacity: 1;
+    opacity: 0;
+    opacity: 0.75;
+  }
+  
+  .opacity-00 {
+    opacity: 0;
+  }
+  
+  .opacity-10 {
+    opacity: 0.1;
+  }
+  
+  .opacity-20 {
+    opacity: 0.2;
+  }
+  
+  .opacity-30 {
+    opacity: 0.3;
   }
