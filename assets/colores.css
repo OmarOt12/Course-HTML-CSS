@@ -1,0 +1,6 @@
+/* Color por nombre */
+.color-by-name {
+    background-color: coral;
+    color: rebeccapurple;
+    border: thick solid greenyellow;
+}
