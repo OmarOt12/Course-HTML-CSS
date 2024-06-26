@@ -1,10 +1,11 @@
 html {
     box-sizing: border-box;
-  }
+}
+
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 /* Pixeles */
@@ -15,4 +16,21 @@ html {
     padding: 20px;
     font-size: 32px;
     border: 5px solid rebeccapurple;
-  }
+}
+
+
+/* em */
+.ems {
+    background-color: cadetblue;
+    font-size: 24px;
+    padding: 1em 0.5em;
+    border: 5px solid rebeccapurple;
+}
+
+.em-child {
+    background-color: salmon;
+    border: thick solid beige;
+    margin: 0.5em;
+    padding: 1em;
+    font-size: 2em;
+}
